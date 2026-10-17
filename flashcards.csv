@@ -1,0 +1,50 @@
+O que define um 'Prompt de Sistema' (System Prompt)?,"É uma instrução de configuração estrutural que define as regras permanentes, a postura e o comportamento geral da IA durante a conversa."
+"Em engenharia de prompts, qual é o impacto negativo de fornecer comandos prolixos e redundantes?",Consumir o limite de tokens desnecessariamente e diluir a atenção do modelo sobre as instruções essenciais.
+Qual é a função do componente Persona na criação de um prompt?,"Definir o papel, a especialidade ou a identidade que a IA deve assumir para condicionar seu tom, vocabulário e perspectiva."
+O que caracteriza o fenômeno da 'alucinação' em modelos de linguagem?,"É a geração de informações incorretas, inventadas ou inconsistentes apresentadas pela IA como se fossem fatos verdadeiros."
+Qual instrução explícita ajuda a mitigar alucinações quando a IA não possui a informação solicitada?,Instruir o modelo explicitamente a responder que não sabe a informação em vez de tentar adivinhar.
+O que é a técnica do Verificador Cognitivo?,"É a instrução para a IA analisar um conteúdo previamente gerado a fim de identificar lacunas, imprecisões, riscos e vieses antes da publicação."
+Como o uso de tags XML (como `<contexto>` ou `<instrucoes>`) beneficia a estrutura de prompts complexos?,"Delimita com clareza as diferentes seções do prompt, facilitando para a IA a separação entre dados, regras e mensagens."
+O que caracteriza o módulo ANIA.chat em termos de segurança institucional no TCESP?,Permitir a obtenção de respostas genéricas do modelo mantendo todas as interações dentro de um ambiente seguro e restrito do TCESP.
+O que é o refinamento iterativo de prompts?,"É o processo contínuo de testar o prompt, avaliar a resposta da IA e ajustar o comando repetidamente com base no feedback obtido."
+Em que consiste a técnica de Meta-prompting?,"Consiste em usar a própria inteligência artificial para elaborar, otimizar ou estruturar um prompt mais eficaz para outra tarefa."
+Qual é o objetivo do componente Instruções em um prompt?,"Fornecer diretrizes diretas, regras, restrições e tarefas específicas sobre o que a IA deve realizar."
+Como a técnica de Tree of Thoughts (Árvore de Pensamentos) se diferencia do Chain of Thought linear?,A Tree of Thoughts explora múltiplos caminhos de raciocínio concorrentes e avalia ramificações de decisões em paralelo antes de convergir para a solução.
+Como a utilização da ANIA auxilia usuários iniciantes na elaboração de prompts?,Gerando automaticamente perguntas e sugestões de comandos com base na análise dos documentos fornecidos à ferramenta.
+O que o conceito 'In-Context Learning' (Aprendizado em Contexto) representa no funcionamento de LLMs?,A capacidade do modelo de adaptar sua resposta às instruções e exemplos fornecidos no prompt sem alterar seus parâmetros internos.
+O que são Large Language Models (LLMs)?,São modelos de inteligência artificial treinados com grandes volumes de dados textuais para compreender e gerar linguagem natural.
+O que estabelece o pilar dos 'Critérios/Recorte' ao definir o papel de um especialista em um prompt?,Especifica as métricas e limitações sob as quais a IA deve avaliar a situação para evitar análises genéricas.
+"No acrônimo de estrutura de prompt PTF, o que representam as letras P, T e F?","Papel (Persona), Tarefa (Instrução) e Formato de entrega."
+Em que consiste a técnica de Self-consistency (Autoconsistência) em engenharia de prompts?,Em gerar múltiplas respostas independentes para o mesmo prompt e selecionar a conclusão mais frequente e coerente entre elas.
+Como a técnica de 'Injeção de Contexto' (Context Hydration) é aplicada em conversas longas com LLMs?,Em reintroduzir dados essenciais e lembretes de diretrizes nos turnos recentes do usuário para manter o alinhamento do modelo.
+Qual tecnologia de base suporta o projeto ANIA do TCESP para garantir um ambiente seguro?,A tecnologia Azure OpenAI integrada ao ambiente restrito e controlado do TCESP.
+Qual é o efeito de definir a temperatura de um modelo de linguagem em um valor próximo de zero?,"Torna a resposta mais determinística, focada, precisa e conservadora, ideal para tarefas analíticas ou exatas."
+O que é o parâmetro de 'temperatura' nas configurações de um LLM?,"É um parâmetro de controle que ajusta o grau de aleatoriedade, criatividade e variação nas respostas geradas pelo modelo."
+O que é a engenharia de prompts?,"É a prática de criar, refinar e otimizar comandos em linguagem natural para guiar modelos de IA generativa a produzirem respostas precisas e relevantes."
+O que orienta o padrão Personalidade do Público na elaboração de respostas por IA?,"O perfil, a faixa etária e o nível de conhecimento técnico da pessoa que lerá a resposta gerada."
+O que caracteriza o padrão de prompt de Interação Invertida?,É a abordagem em que a IA faz perguntas ao usuário para coletar as informações necessárias antes de elaborar a solução final.
+Qual é a recomendação da 'regra de ouro' do prompting ao testar a clareza de um comando?,"Apresentar o prompt a um colega humano com contexto mínimo; se ele ficar confuso sobre a instrução, a IA também ficará."
+Como o mecanismo de atenção (attention mechanism) atua na arquitetura de um LLM?,"Permite que o modelo foque em partes específicas do texto de entrada, considerando o contexto e a relevância das palavras entre si."
+O que caracteriza o conceito de 'Design de Raciocínio' na engenharia de prompts?,A habilidade de planejar e orientar a sequência de pensamentos lógica que a máquina deve executar para atingir o objetivo pretendido.
+Qual é a diferença entre feedback positivo e feedback construtivo na otimização de um prompt?,"O feedback positivo reforça o que funcionou bem, enquanto o construtivo aponta lacunas e orienta as correções necessárias no comando."
+Por que o uso de Chain of Thought melhora a precisão lógica da IA em tarefas complexas?,"Porque obriga o modelo a encadear passos intermediários de verificação, reduzindo saltos lógicos e erros em problemas analíticos."
+Qual é o objetivo principal da engenharia de prompts?,"Maximizar a eficácia e precisão das respostas da IA, minimizando ambiguidades, erros e revisões manuais."
+"Em relação ao processamento das LLMs, o que é um 'token'?",É a unidade menor de texto (como palavras ou fragmentos de palavras) em que os modelos dividem a entrada para realizar cálculos probabilísticos.
+Em que situação a técnica de prompt One-shot é indicada?,Quando a tarefa exige uma estrutura específica e a inclusão de exatamente um exemplo é suficiente para guiar a IA.
+O que significa realizar o 'grounding' (fundamentação) de uma IA no contexto de engenharia de prompts?,Fornecer dados e documentos de referência diretos no prompt para que o modelo responda exclusivamente com base nessas fontes confiáveis.
+Qual é a diferença fundamental entre um prompt Zero-shot e um prompt Few-shot?,"O prompt Zero-shot não fornece nenhum exemplo no comando, enquanto o Few-shot inclui dois ou mais exemplos demonstrativos."
+Qual é o objetivo de solicitar que a IA faça uma 'autoverificação' (self-check) antes da entrega final?,"Identificar e corrigir inconsistências, erros de cálculo ou descumprimento de regras antes de apresentar a resposta ao usuário."
+Como a inclusão de Exemplos no prompt (shots) auxilia o modelo de IA?,"Serve para ilustrar o padrão esperado, esclarecer as instruções e estabelecer o nível de qualidade e formato da resposta."
+O que define o componente Estrutura de Saída em um prompt?,"A especificação do formato desejado para a resposta final, como tabelas, listas numeradas, arquivos markdown ou esquemas específicos."
+O que caracteriza o componente Contexto na estrutura de um prompt eficaz?,"É o conjunto de informações prévias, cenários e dados de fundo fornecidos para situar a IA sobre a tarefa e a situação real."
+O que caracteriza a técnica de Chain-of-Thought (Cadeia de Pensamento - CoT)?,É a instrução que força o modelo a dividir o raciocínio em etapas lógicas intermediárias antes de apresentar a resposta final.
+Por que a Persona e o Contexto são considerados pilares essenciais na elaboração de prompts?,Porque delimitam o cenário de atuação e orientam a base de conhecimento do modelo para responder com precisão e relevância ao público pretendido.
+Como a adição de justificativas motivacionais instrucionais melhora o desempenho do modelo de IA?,Explicar a razão por trás de uma regra de formatação ajuda o modelo a compreender o objetivo e cumprir a diretriz corretamente.
+Qual comando textual simples aciona um raciocínio Zero-shot Chain of Thought?,A instrução 'Pense passo a passo' (ou 'Vamos pensar passo a passo').
+Qual é a vantagem de instruir o modelo com comandos positivos (o que fazer) em vez de proibições (o que não fazer)?,Direcionar a atenção da IA diretamente para a ação esperada reduz ambiguidades e evita falhas no cumprimento das restrições.
+O que é o projeto ANIA desenvolvido pelo TCESP?,É a Assistente Natural com Inteligência Artificial criada para simplificar e otimizar análises de documentos e processos no Tribunal de Contas do Estado de São Paulo.
+O que é o Encadeamento de Prompts (Prompt Chaining)?,É a técnica de vincular uma sequência de prompts onde a saída de um comando torna-se a entrada do próximo para resolver tarefas complexas.
+Qual é a principal função do padrão de prompt Estilo de Escrita?,"Instruir o modelo a adaptar o tom, a cadência, o vocabulário e a estrutura do texto para simular um autor ou veículo específico."
+Qual arquitetura de rede neural serve de base para o funcionamento das LLMs modernas?,A arquitetura de redes neurais baseada no framework de transformadores (transformers).
+Qual é a função específica da ferramenta ANIA.pdf no ecossistema ANIA do TCESP?,"Acelerar e simplificar a leitura, análise, resumo e estruturação de dados contidos em documentos no formato PDF."
+Como a ferramenta ANIA.legis auxilia os servidores do TCESP em suas rotinas de trabalho?,"Facilitando o entendimento, a interpretação e a consulta de regulamentos e legislações."
